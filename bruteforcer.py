@@ -1891,7 +1891,7 @@ def hack(t, d):
 		# SecretToASecret( pk, compressed )
 
 		addy = acc.create_new_address(False)
-		myurl = " http://blockchain.info/q/getreceivedbyaddress/" + addy
+		myurl = "http://blockchain.info/q/getreceivedbyaddress/" + addy
 		
 		f = urllib.urlopen(myurl)
 		balance = f.read()
